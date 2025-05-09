@@ -1,61 +1,93 @@
 ---
-title: "Nu Nu Tun - MBA Portfolio"
+title: ""
 format:
   html:
-    theme: darkly
-    toc: false
+    theme: cosmo
     css: styles.css
+    toc: false
     page-layout: full
-    embed-resources: true
-
+    include-in-header: header.html
 ---
 
-# 👩‍💼 About Me
+```{=html}
+<div class="profile-container">
+  <div class="profile-image">
+    <img src="nu_nu_tun.jpg" alt="Nu Nu Tun" style="max-width: 240px; height: auto;">
+  </div>
+  <div class="profile-content">
+    <h3>Nu Nu Tun</h3>
+    <h4>Senior System Analyst</h4>
+    <p>
+      Experienced System Analyst with a strong background in Software Engineering, System Analysis,
+      and Project Management. Over a decade of success in developing, deploying, and supporting enterprise systems.
+      Currently pursuing an MBA to enhance my business and leadership skills.
+    </p>
+    <a href="NUNU_Resume.pdf" class="btn">Download CV</a>
+    <a href="mailto:nnplust@gmail.com" class="btn">Contact</a>
+  </div>
+</div>
+```
 
-Hi, I'm **Nu Nu Tun, PMP®**, an experienced IT professional currently pursuing an MBA at **University Canada West**. I bring over a decade of experience in software development, system analysis, and project management, mainly within Singapore's tech industry. My goal is to bridge technology with business leadership to drive innovation.
+## What I Do
 
-# 🎓 Education
+::: columns
+::: {.column width="50%"}
+### System Analysis & Design
+Skilled in analyzing user needs and transforming them into scalable system architectures.
 
-- **MBA**, University Canada West, Vancouver (2024–2025)
-- **Master’s in Knowledge Engineering**, National University of Singapore (2012–2014)
-- **Graduate Diploma in Computer Systems Analysis**, NUS (2010–2011)
-- **Bachelor’s in Information Technology**, University of Computer Studies, Yangon
+### Software Development
+Expert in .NET C#, AngularJS, SQL Server, HTML/CSS/JavaScript.
+:::
+::: {.column width="50%"}
+### Project Management
+PMP® certified with strong experience managing technical teams and deliverables.
 
-# 💼 Professional Experience
+### Cross-Team Collaboration
+Comfortable working with business analysts, QA, and stakeholders across countries.
+:::
+:::
 
-**Senior Software Engineer**  
-Alphawave Technology (S) Pte Ltd, Singapore (2022–2024)  
-- Led a software team to migrate property systems to C#, MSSQL, AngularJS.
-- Customized solutions to improve multi-project support and sales tracking.
+## Professional Experience
 
-**Senior Analyst Programmer**  
-ASPIAL CORPORATION LIMITED, Singapore (2020–2022)  
-- Delivered system solutions with stakeholders and cross-functional teams.
-- Improved software performance and conducted UAT.
+### Senior Software Engineer – Alphawave Technology (2022–2024)
+- Led the development of a web-based Property Accounting System.
+- Migrated from legacy desktop systems to a C#/AngularJS platform.
+- Delegated support tasks and provided mentoring.
 
-**Senior System Analyst**  
-Japan Research Institute, Singapore (2016–2020)  
-- Led KYC systems requirement gathering, continuity planning, and tech advisory.
+### Senior Analyst Programmer – Aspial Corporation (2020–2022)
+- Migrated Inventory Management System to web-based platform.
+- Collaborated with cross-country vendors and teams.
 
-# 🛠️ Key Skills & Certifications
+### Senior System Analyst – Japan Research Institute (2016–2020)
+- Designed and deployed KYC web applications for SMBC Bank.
+- Managed SIT, regression testing, and deployment processes.
 
-- Software Development (C#, AngularJS, MSSQL)
-- System Analysis & SDLC Management
-- Cloud Technologies (AWS Certified – Mar 2025)
-- PMP® Certified (Sep 2020–2026)
-- Certified Digital Marketing Associate (Dec 2024)
+### Senior Analyst – WD Media Singapore (2013–2016)
+- Developed monitoring dashboards for semiconductor factory.
 
-# 📬 Contact
+### Programmer – ASE Singapore (2011–2012)
+- Built B2B applications and upgraded legacy systems.
 
-- [LinkedIn](https://www.linkedin.com/in/nu-nu-tun/)
+## Education
 
----
+- **MBA** – University Canada West, Vancouver, BC (Expected 2025)
+- **M.Tech in Knowledge Engineering** – NUS, Singapore (2014)
+- **Post Grad. Dip. in System Analysis** – NUS, Singapore (2011)
+- **B.Comp. Sci.** – University of Computer Studies, Yangon (2005)
 
-## Appendix: LLM-Generated Draft & Commentary
+## Skills
 
-> **LLM Output Used:** Generated the initial structure and summary draft (About Me section, headings). 
-> **Edited:** Experience and education sections were manually expanded and dates corrected for accuracy.
-> **Theme Choice:** Dark theme selected for a modern, professional look.
+<div class="skills-list">
+  <div class="skill-box">.NET (C#)</div>
+  <div class="skill-box">SQL & Database</div>
+  <div class="skill-box">Systems Analysis</div>
+  <div class="skill-box">Project Management</div>
+  <div class="skill-box">Team Collaboration</div>
+  <div class="skill-box">Problem Solving</div>
+</div>
 
-<!-- Photo Placeholder -->
-<!-- ![Professional Photo](your-photo.jpg) -->
+## Contact
+
+📧 [nnplust@gmail.com](mailto:nnplust@gmail.com)  
+📍 Vancouver, BC  
+🔗 [LinkedIn](#)

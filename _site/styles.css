@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #111111;
+  color: #f5f5f5;
+  padding: 3rem;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.3rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #dddddd;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.profile-image img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(255,255,255,0.1);
+}
+
+.profile-content {
+  flex: 1 1 400px;
+}
+
+.btn {
+  padding: 0.6rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: 500;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  background: #ffffff;
+  color: #111111;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background: #cccccc;
+  color: #000000;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.skill-box {
+  background: #222222;
+  padding: 0.6rem 1.1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #f5f5f5;
+  border: 1px solid #333333;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.skill-box:hover {
+  background: #333333;
+  transform: scale(1.03);
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-content {
+    text-align: center;
+  }
+}
